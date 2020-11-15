@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <div class="header-text">
+                <h1> This is Xypo Website. <br> This is for laerning purpose. </h1>
+               <span class="square">
+
+               </span>
+                <p>Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Laboriosam, deleniti quos 
+                    eius rerum eaque, sit laborum deserunt, nobis 
+                    earum magni sint optio nulla autem non neque. 
+                    Iste qui eos architecto.
+                </p>
+                <button class="common-btn"> Read More </button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Offers</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="Menu" id="menuBtn">
+
+    <!-----About ---->
+    <section id="aout">
+        
+    </section>
+</body>
+<script>
+    var menuBtn =document.getElementById("menuBtn");
+    var sideNav =document.getElementById("sideNav");
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px")
+        {
+            sideNav.style.right="0px";
+        }
+        else
+        {
+            sideNav.style.right="-250px";
+        }
+    }
+</script>
+</html>
