@@ -95,7 +95,7 @@ nav ul li a {
     z-index: 2;
     cursor: pointer;
 }
-#aout{
+#about{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -106,7 +106,23 @@ nav ul li a {
 }
 .about-right-col{
     flex-basis: 50%;
+    text-align: right;
 }
 .about-left-col img{
     width: 100%;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
 }
